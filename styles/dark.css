@@ -6,6 +6,7 @@
 
 :root.theme-dark {
   --main-text-color: #f1b2ce;
+  --bg-color: #000028;
   --main-header-color: #db00ff;
   --button-hover-border: #ff007066;
   --article-header-color: #000028;
@@ -19,6 +20,7 @@
 @media (prefers-color-scheme: dark) {
   :root.theme-auto {
     --main-text-color: #f1b2ce;
+    --bg-color: #000028;
     --main-header-color: #db00ff;
     --button-hover-border: #ff007066;
     --article-header-color: #000028;
