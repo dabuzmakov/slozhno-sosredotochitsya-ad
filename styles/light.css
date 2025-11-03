@@ -18,7 +18,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root.theme-auto {
+  :root {
     --main-text-color: #353430;
     --bg-color: #fff1f7;
     --button-color: #353430;

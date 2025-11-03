@@ -18,7 +18,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root.theme-auto {
+  :root {
     --main-text-color: #f1b2ce;
     --bg-color: #000028;
     --main-header-color: #db00ff;
