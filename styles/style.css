@@ -48,10 +48,6 @@
   border-inline-end: 1px solid var(--button-color);
 }
 
-.header__theme-menu {
-  justify-self: end;
-}
-
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
@@ -91,13 +87,8 @@
 }
 
 .header__title {
+  justify-self: start;
   text-shadow: 4px 4px 0 var(--shadow-color);
-}
-
-.header__description {
-  justify-self: end;
-  align-self: center;
-  width: 100%;
 }
 
 .header__rec {
@@ -235,7 +226,6 @@
   }
 
   .header__title {
-    justify-self: left;
     margin-inline-start: calc(-1 * var(--main-padding));
   }
 
